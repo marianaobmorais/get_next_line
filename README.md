@@ -8,9 +8,18 @@
 
 ## About
 
- This function returns a line read from a File Descriptor.
+The goal of this project is to write a function that returns a line read from a File Descriptor.
+By the end of this project, I have developed file reading skills in C, which allows me to handle file input more efficiently. I have enhanced my understanding of file input/output operations in C, how to handle file descriptors, and how to manage memory dynamically.
 
- Mandatory equirements:  
+The get_next_line() function:
+- Handles different buffer sizes;
+- Reads a line from a file descriptor;
+- Supports for multiple file descriptors; and
+- Manages memory dynamically.
+
+
+### Project Requirements
+**Mandatory:**  
 
 
 • Repeated calls (e.g., using a loop) to your `get_next_line()` function should let you read the text file pointed to by the file descriptor, one line at a time.  
@@ -18,7 +27,7 @@
 • Make sure that your function works as expected both when reading a file and when reading from the standard input.  
 • Please note that the returned line should include the terminating `\n` character, except if the end of file was reached and does not end with a `\n` character.  
 
- Bonus requirements:  
+**Bonus:**  
 
 
 • Develop `get_next_line()` using only one static variable.  
@@ -26,12 +35,12 @@
 
 ## Build
 
- Clone the repository: 
- ```shell
+Clone the repository: 
+```shell
 git clone https://github.com/marianaobmorais/get_next_line.git
 ```
- Enter the clonned directory:
- ```shell
+Enter the clonned directory:
+```shell
 cd get_next_line
 ```
 Copy the source files .c and header .h to your project directory.
