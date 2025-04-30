@@ -18,7 +18,8 @@ The get_next_line() function:
 - Manages memory dynamically.
 
 
-### Project Requirements
+## Features
+
 **Mandatory:**  
 
 
